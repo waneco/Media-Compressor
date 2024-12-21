@@ -132,8 +132,8 @@ This project is licensed under the terms of the MIT License. See the `LICENSE` f
 
 ## Contributing
 
-Contributions are welcome! Please see the `CONTRIBUTING.md` file for guidelines.
+This project is provided as-is for personal use, and contributions are not actively managed. If you find the project useful and wish to adapt or improve it, feel free to fork the repository. Issues are not guaranteed to be monitored or addressed.
 
 ## Disclaimer
 
-This tool modifies media files. Always test the tool on a backup before running it on important data.
+This tool modifies media files. Always test the tool on a backup before running it on important data. This tool is designed with the premise of saving media in a different location; however, please ensure that your use case aligns with this functionality.
