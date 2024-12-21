@@ -1,11 +1,10 @@
 # Media-Compressor
-A Python-based tool for compressing and resizing media files while preserving metadata, optimized for NAS storage and viewing.
-Media Compressor is a Python-based tool for compressing and resizing media files, while preserving metadata (e.g., EXIF information) and timestamps (creation and modification dates). It supports images and videos in various formats, including RAW and HEIC images. Similar to services like Google Photos, this tool compresses media files to generate lightweight versions optimized for viewing.
+Media Compressor is a Python-based tool for compressing and resizing media files, while preserving metadata (e.g., EXIF information) and timestamps (creation and modification dates). While it supports images and videos in various formats, including RAW and HEIC images, this tool is specifically designed for users who need lightweight media files for efficient storage and viewing, particularly on NAS servers. Unlike services like Google Photos, Media Compressor operates locally and gives users full control over the compression process.
 
 ## Features
 
 - Compress and resize supported images and videos.
-- Convert non-JPEG images to JPEG and non-MP4 videos to MP4.
+- Convert non-JPEG images to JPEG and non-MP4 videos to MP4. The tool is optimized to maintain a balance between file size reduction and quality, using configurable compression settings.
 - Preserve metadata such as capture date and location information.
 - Maintain file timestamps (creation and modification dates).
 - Supports RAW image formats (`.arw`, `.nef`) and HEIC images (`.heic`).
